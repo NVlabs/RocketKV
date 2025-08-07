@@ -1,0 +1,17 @@
+{
+    "eval_params": {
+        "dataset": "scbench_choice_eng",
+        "dataset_path": "dataset/scbench",
+        "instruction": "Read the book and answer the question.\n\n{context}\n\nQuestion: {question}\nA. {OPTION_A}\nB. {OPTION_B}\nC. {OPTION_C}\nD. {OPTION_D}\n\nThe the correct answer is",
+        "instruction_position": "prefix",
+        "max_new_tokens": 40
+    },
+    "management": {
+        "sub_dir": {
+            "input_config": "input_config/",
+            "raw_results": "raw_results.json",
+            "result_vis": "result_vis.png",
+            "output_config": "output_config.json"
+        }
+    }
+}

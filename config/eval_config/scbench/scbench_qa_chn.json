@@ -1,0 +1,17 @@
+{
+    "eval_params": {
+        "dataset": "scbench_qa_chn",
+        "dataset_path": "dataset/scbench",
+        "instruction": "阅读以下书籍然后回答问题。\n\n{context}\n\n问题：{question}\n答案：",
+        "instruction_position": "prefix",
+        "max_new_tokens": 40
+    },
+    "management": {
+        "sub_dir": {
+            "input_config": "input_config/",
+            "raw_results": "raw_results.json",
+            "result_vis": "result_vis.png",
+            "output_config": "output_config.json"
+        }
+    }
+}

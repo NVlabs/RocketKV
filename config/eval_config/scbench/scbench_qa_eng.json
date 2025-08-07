@@ -1,0 +1,17 @@
+{
+    "eval_params": {
+        "dataset": "scbench_qa_eng",
+        "dataset_path": "dataset/scbench",
+        "instruction": "Read the book and answer the question. Be very concise in your answer.\n\n{context}\n\nQuestion: {question}\nAnswer:",
+        "instruction_position": "prefix",
+        "max_new_tokens": 40
+    },
+    "management": {
+        "sub_dir": {
+            "input_config": "input_config/",
+            "raw_results": "raw_results.json",
+            "result_vis": "result_vis.png",
+            "output_config": "output_config.json"
+        }
+    }
+}

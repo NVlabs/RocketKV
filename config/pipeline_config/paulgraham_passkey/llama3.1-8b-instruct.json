@@ -1,0 +1,15 @@
+{
+    "pipeline_params": {
+        "model_name": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+        "tokenizer_name": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+        "chat_template": "llama3",
+        "model_max_len": 128000,
+        "fattn": true,
+        "use_flash_attn": true,
+        "truncation_mode": null,
+        "batch_size": 1,
+        "out_of_max_len_allowed": true,
+        "base": 500000,
+        "rope_theta_factor": 1.0
+    }
+}

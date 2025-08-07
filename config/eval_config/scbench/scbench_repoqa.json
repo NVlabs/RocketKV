@@ -1,0 +1,17 @@
+{
+    "eval_params": {
+        "dataset": "scbench_repoqa",
+        "dataset_path": "dataset/scbench",
+        "instruction": "Based on the function description and code context, please retrieve and repeat the exact described function from the code context in a code block wrapped by ```:\n\n{context}\n\n{input}",
+        "instruction_position": "prefix",
+        "max_new_tokens": 1024
+    },
+    "management": {
+        "sub_dir": {
+            "input_config": "input_config/",
+            "raw_results": "raw_results.json",
+            "result_vis": "result_vis.png",
+            "output_config": "output_config.json"
+        }
+    }
+}

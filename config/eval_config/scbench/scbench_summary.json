@@ -1,0 +1,17 @@
+{
+    "eval_params": {
+        "dataset": "scbench_summary",
+        "dataset_path": "dataset/scbench",
+        "instruction": "{context}\n\n{input}",
+        "instruction_position": "prefix",
+        "max_new_tokens": 200
+    },
+    "management": {
+        "sub_dir": {
+            "input_config": "input_config/",
+            "raw_results": "raw_results.json",
+            "result_vis": "result_vis.png",
+            "output_config": "output_config.json"
+        }
+    }
+}
